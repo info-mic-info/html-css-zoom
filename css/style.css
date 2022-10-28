@@ -15,8 +15,6 @@ header {
     position: fixed;
     top: 0;
     left: 0%;
-
-
 }
 
 .user {
@@ -26,6 +24,13 @@ header {
     display: flex;
 }
 
+.fix-user {
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
 /* Utility */
 .wt {
     color: white;
@@ -33,11 +38,6 @@ header {
 
 .background-grey {
     background-color: grey;
-
-}
-
-.margin-l{
-    margin-left: 5px;
 }
 
 /* Utility */
@@ -50,10 +50,3 @@ main {
     height: 500px;
 }
 
-
-
-.padding-5px {
-    padding: 5px;
-    text-align: center;
-    border-radius: 5px;
-}
