@@ -2,11 +2,11 @@
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
-    border: solid 1px black;
+    /* border: solid 1px red; */
 }
 
-body{
-    background-color: blue;
+body {
+    background-color: black;
 }
 
 /* HEADER */
@@ -41,9 +41,19 @@ header {
     color: white;
 }
 
+i {
+    color: white;
+}
+
 .background-grey {
     background-color: grey;
 }
+
+span {
+    text-align: center;
+}
+
+
 
 /* Utility */
 
@@ -54,17 +64,17 @@ header {
 main {
     /* width: 100vw;
     height: 100vh; */
-    
+
 }
 
 .container-flex {
     width: 100%;
-    margin: 0 auto;
+    margin: 60px auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: bisque;
-    
+    background-color: black;
+
 }
 
 .col {
@@ -72,18 +82,18 @@ main {
     max-height: 300px;
     margin: 5px 5px;
     width: calc(100% / 7 - 16px);
-   
-    
+
+
 }
 
 .card {
     position: relative;
-   
+
 }
 
 .card img {
     width: 100%;
-    height: 200px;   
+    height: 200px;
 }
 
 .mic-user {
@@ -91,35 +101,91 @@ main {
     bottom: 10px;
     left: 0;
     background-color: grey;
-}  
+}
 
 /* FOOTER */
 
-footer{
+footer {
     width: 100%;
-    background-color: lightgrey;
+    background-color: rgb(32, 30, 30);
     position: fixed;
     bottom: 0;
     left: 0;
+    padding: 10px;
 }
 
 .container-ft {
     margin: 0 auto;
 }
 
-.row-ft{
+.row-ft {
     width: 100%;
     display: flex;
 
 
 }
 
-.col-25{
+.col-25 {
+    display: flex;
     width: 25%;
-    height: 100px;
+   
+    align-items: center;
+    justify-content: flex-start;
 }
 
-.col-50{
+.col-50 {
+    display: flex;
     width: 50%;
-    height: 100px;
+   
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.col-25 ul {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    list-style: none;  
+    justify-content: flex-start;
+
+}
+
+.col-50 ul {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+
+}
+
+
+
+li {
+    align-items: center;
+    margin: 0 5px;
+
+}
+
+h6 {
+    color: white;
+}
+
+h4{
+    color: red;
+    text-align: center;
+   
+}
+
+.end {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+
+    
 }
